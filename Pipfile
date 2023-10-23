@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pygltflib = "*"
+pyyaml = "*"
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+shap-e = {git = "https://github.com/openai/shap-e.git"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
